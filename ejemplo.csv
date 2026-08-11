@@ -1,31 +1,31 @@
-nombre,apellido,dni,edad,email
-Juan,Pérez,30111222,34,juan.perez@example.com
-María,Gómez,28999888,29,maria.gomez@example.com
-Carlos,López,25777666,41,carlos.lopez@example.com
-Lucía,Fernández,33444555,26,lucia.fernandez@example.com
-Diego,Martínez,27888999,38,diego.martinez@example.com
-Sofía,Rodríguez,31222333,22,sofia.rodriguez@example.com
-Martín,Sánchez,29555444,45,martin.sanchez@example.com
-Valentina,Díaz,34666777,31,valentina.diaz@example.com
-Federico,Romero,26333222,27,federico.romero@example.com
-Camila,Torres,32111000,36,camila.torres@example.com
-Ignacio,Álvarez,35222111,24,ignacio.alvarez@example.com
-Florencia,Ruiz,28777333,33,florencia.ruiz@example.com
-Nicolás,Moreno,30999444,28,nicolas.moreno@example.com
-Agustina,Molina,34111888,21,agustina.molina@example.com
-Sebastián,Ortiz,27666555,39,sebastian.ortiz@example.com
-Julieta,Silva,33888222,30,julieta.silva@example.com
-Matías,Castro,29444777,42,matias.castro@example.com
-Micaela,Ramírez,32555999,25,micaela.ramirez@example.com
-Tomás,Herrera,26111444,37,tomas.herrera@example.com
-Antonella,Vega,35777222,23,antonella.vega@example.com
-Emiliano,Rojas,28333666,44,emiliano.rojas@example.com
-Brenda,Medina,31888555,26,brenda.medina@example.com
-Facundo,Aguirre,30222999,35,facundo.aguirre@example.com
-Rocío,Benítez,34999111,29,rocio.benitez@example.com
-Gonzalo,Flores,27555888,40,gonzalo.flores@example.com
-Milagros,Acosta,33222444,22,milagros.acosta@example.com
-Lautaro,Cabrera,29888333,31,lautaro.cabrera@example.com
-Abril,Giménez,32444666,24,abril.gimenez@example.com
-Joaquín,Núñez,26777999,46,joaquin.nunez@example.com
-Delfina,Vidal,35111555,27,delfina.vidal@example.com
+nombre,apellido,dni,edad,email,ciudad
+Juan,Pérez,30111222,34,juan.perez@example.com,Buenos Aires
+María,Gómez,28999888,29,maria.gomez@example.com,Córdoba
+Carlos,López,25777666,41,carlos.lopez@example.com,Rosario
+Lucía,Fernández,33444555,26,lucia.fernandez@example.com,Mendoza
+Diego,Martínez,27888999,38,diego.martinez@example.com,La Plata
+Sofía,Rodríguez,31222333,22,sofia.rodriguez@example.com,Mar del Plata
+Martín,Sánchez,29555444,45,martin.sanchez@example.com,San Miguel de Tucumán
+Valentina,Díaz,34666777,31,valentina.diaz@example.com,Salta
+Federico,Romero,26333222,27,federico.romero@example.com,Santa Fe
+Camila,Torres,32111000,36,camila.torres@example.com,Neuquén
+Ignacio,Álvarez,35222111,24,ignacio.alvarez@example.com,Bahía Blanca
+Florencia,Ruiz,28777333,33,florencia.ruiz@example.com,Resistencia
+Nicolás,Moreno,30999444,28,nicolas.moreno@example.com,Posadas
+Agustina,Molina,34111888,21,agustina.molina@example.com,San Juan
+Sebastián,Ortiz,27666555,39,sebastian.ortiz@example.com,San Luis
+Julieta,Silva,33888222,30,julieta.silva@example.com,Paraná
+Matías,Castro,29444777,42,matias.castro@example.com,Corrientes
+Micaela,Ramírez,32555999,25,micaela.ramirez@example.com,Formosa
+Tomás,Herrera,26111444,37,tomas.herrera@example.com,San Salvador de Jujuy
+Antonella,Vega,35777222,23,antonella.vega@example.com,Río Cuarto
+Emiliano,Rojas,28333666,44,emiliano.rojas@example.com,Comodoro Rivadavia
+Brenda,Medina,31888555,26,brenda.medina@example.com,Santiago del Estero
+Facundo,Aguirre,30222999,35,facundo.aguirre@example.com,Concordia
+Rocío,Benítez,34999111,29,rocio.benitez@example.com,San Fernando del Valle de Catamarca
+Gonzalo,Flores,27555888,40,gonzalo.flores@example.com,La Rioja
+Milagros,Acosta,33222444,22,milagros.acosta@example.com,Viedma
+Lautaro,Cabrera,29888333,31,lautaro.cabrera@example.com,Rawson
+Abril,Giménez,32444666,24,abril.gimenez@example.com,Ushuaia
+Joaquín,Núñez,26777999,46,joaquin.nunez@example.com,Santa Rosa
+Delfina,Vidal,35111555,27,delfina.vidal@example.com,Río Gallegos
