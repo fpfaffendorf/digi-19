@@ -42,7 +42,58 @@ class Aplicacion(tk.Tk):
         self._crear_widgets()
         self._cargar_datos()
 
+    def _configurar_estilo(self):
+        """Configura la grilla con una paleta de tonos azules."""
+        # Paleta de azules
+        AZUL_CELDA = "#eaf2fb"        # fondo de las celdas (azul muy claro)
+        AZUL_CELDA_ALT = "#d4e4f7"    # fondo de filas alternas (azul claro)
+        AZUL_TEXTO = "#0d2f5c"        # texto (azul oscuro) -> buen contraste
+        AZUL_ENCABEZADO = "#1e5aa8"   # fondo del encabezado (azul medio)
+        AZUL_ENCABEZADO_ACT = "#17457f"  # encabezado al pasar el mouse
+        AZUL_SELECCION = "#2f6fbf"    # fondo de la fila seleccionada
+        BLANCO = "#ffffff"
+
+        estilo = ttk.Style(self)
+        # 'clam' permite personalizar colores de forma consistente
+        estilo.theme_use("clam")
+
+        # Cuerpo de la grilla (celdas)
+        estilo.configure(
+            "Azul.Treeview",
+            background=AZUL_CELDA,
+            fieldbackground=AZUL_CELDA,
+            foreground=AZUL_TEXTO,
+            rowheight=26,
+            bordercolor=AZUL_ENCABEZADO,
+            borderwidth=1,
+        )
+        # Fila seleccionada: fondo azul fuerte + texto blanco (alto contraste)
+        estilo.map(
+            "Azul.Treeview",
+            background=[("selected", AZUL_SELECCION)],
+            foreground=[("selected", BLANCO)],
+        )
+
+        # Encabezados
+        estilo.configure(
+            "Azul.Treeview.Heading",
+            background=AZUL_ENCABEZADO,
+            foreground=BLANCO,
+            relief="flat",
+            font=("Segoe UI", 10, "bold"),
+        )
+        estilo.map(
+            "Azul.Treeview.Heading",
+            background=[("active", AZUL_ENCABEZADO_ACT)],
+        )
+
+        # Guardamos colores para las filas alternas
+        self._color_par = AZUL_CELDA
+        self._color_impar = AZUL_CELDA_ALT
+
     def _crear_widgets(self):
+        self._configurar_estilo()
+
         # Contenedor principal
         contenedor = ttk.Frame(self, padding=10)
         contenedor.pack(fill=tk.BOTH, expand=True)
@@ -51,7 +102,9 @@ class Aplicacion(tk.Tk):
         marco_grilla = ttk.Frame(contenedor)
         marco_grilla.pack(fill=tk.BOTH, expand=True)
 
-        self.tree = ttk.Treeview(marco_grilla, show="headings")
+        self.tree = ttk.Treeview(
+            marco_grilla, show="headings", style="Azul.Treeview"
+        )
 
         scroll_y = ttk.Scrollbar(
             marco_grilla, orient=tk.VERTICAL, command=self.tree.yview
@@ -107,9 +160,14 @@ class Aplicacion(tk.Tk):
             self.tree.heading(col, text=col.capitalize())
             self.tree.column(col, width=150, anchor=tk.W, stretch=True)
 
+        # Etiquetas para filas alternas (efecto cebra en tonos azules)
+        self.tree.tag_configure("par", background=self._color_par)
+        self.tree.tag_configure("impar", background=self._color_impar)
+
         # Insertar filas
-        for fila in filas:
-            self.tree.insert("", tk.END, values=fila)
+        for indice, fila in enumerate(filas):
+            etiqueta = "par" if indice % 2 == 0 else "impar"
+            self.tree.insert("", tk.END, values=fila, tags=(etiqueta,))
 
 
 def main():
