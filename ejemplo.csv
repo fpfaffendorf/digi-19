@@ -1,31 +1,31 @@
-nombre,apellido,dni,edad,email,ciudad,color_ojos
-Juan,Pérez,30111222,34,juan.perez@example.com,Buenos Aires,Azules
-María,Gómez,28999888,29,maria.gomez@example.com,Córdoba,Verdes
-Carlos,López,25777666,41,carlos.lopez@example.com,Rosario,Negros
-Lucía,Fernández,33444555,26,lucia.fernandez@example.com,Mendoza,Celestes
-Diego,Martínez,27888999,38,diego.martinez@example.com,La Plata,Marrones
-Sofía,Rodríguez,31222333,22,sofia.rodriguez@example.com,Mar del Plata,Azules
-Martín,Sánchez,29555444,45,martin.sanchez@example.com,San Miguel de Tucumán,Marrones
-Valentina,Díaz,34666777,31,valentina.diaz@example.com,Salta,Verdes
-Federico,Romero,26333222,27,federico.romero@example.com,Santa Fe,Negros
-Camila,Torres,32111000,36,camila.torres@example.com,Neuquén,Marrones
-Ignacio,Álvarez,35222111,24,ignacio.alvarez@example.com,Bahía Blanca,Celestes
-Florencia,Ruiz,28777333,33,florencia.ruiz@example.com,Resistencia,Marrones
-Nicolás,Moreno,30999444,28,nicolas.moreno@example.com,Posadas,Verdes
-Agustina,Molina,34111888,21,agustina.molina@example.com,San Juan,Azules
-Sebastián,Ortiz,27666555,39,sebastian.ortiz@example.com,San Luis,Marrones
-Julieta,Silva,33888222,30,julieta.silva@example.com,Paraná,Negros
-Matías,Castro,29444777,42,matias.castro@example.com,Corrientes,Marrones
-Micaela,Ramírez,32555999,25,micaela.ramirez@example.com,Formosa,Celestes
-Tomás,Herrera,26111444,37,tomas.herrera@example.com,San Salvador de Jujuy,Verdes
-Antonella,Vega,35777222,23,antonella.vega@example.com,Río Cuarto,Marrones
-Emiliano,Rojas,28333666,44,emiliano.rojas@example.com,Comodoro Rivadavia,Negros
-Brenda,Medina,31888555,26,brenda.medina@example.com,Santiago del Estero,Azules
-Facundo,Aguirre,30222999,35,facundo.aguirre@example.com,Concordia,Marrones
-Rocío,Benítez,34999111,29,rocio.benitez@example.com,San Fernando del Valle de Catamarca,Verdes
-Gonzalo,Flores,27555888,40,gonzalo.flores@example.com,La Rioja,Marrones
-Milagros,Acosta,33222444,22,milagros.acosta@example.com,Viedma,Celestes
-Lautaro,Cabrera,29888333,31,lautaro.cabrera@example.com,Rawson,Negros
-Abril,Giménez,32444666,24,abril.gimenez@example.com,Ushuaia,Verdes
-Joaquín,Núñez,26777999,46,joaquin.nunez@example.com,Santa Rosa,Marrones
-Delfina,Vidal,35111555,27,delfina.vidal@example.com,Río Gallegos,Azules
+nombre,apellido,dni,edad,email,ciudad,color_ojos,altura
+Juan,Pérez,30111222,34,juan.perez@example.com,Buenos Aires,Azules,1.78
+María,Gómez,28999888,29,maria.gomez@example.com,Córdoba,Verdes,1.65
+Carlos,López,25777666,41,carlos.lopez@example.com,Rosario,Negros,1.82
+Lucía,Fernández,33444555,26,lucia.fernandez@example.com,Mendoza,Celestes,1.60
+Diego,Martínez,27888999,38,diego.martinez@example.com,La Plata,Marrones,1.75
+Sofía,Rodríguez,31222333,22,sofia.rodriguez@example.com,Mar del Plata,Azules,1.68
+Martín,Sánchez,29555444,45,martin.sanchez@example.com,San Miguel de Tucumán,Marrones,1.85
+Valentina,Díaz,34666777,31,valentina.diaz@example.com,Salta,Verdes,1.62
+Federico,Romero,26333222,27,federico.romero@example.com,Santa Fe,Negros,1.79
+Camila,Torres,32111000,36,camila.torres@example.com,Neuquén,Marrones,1.66
+Ignacio,Álvarez,35222111,24,ignacio.alvarez@example.com,Bahía Blanca,Celestes,1.74
+Florencia,Ruiz,28777333,33,florencia.ruiz@example.com,Resistencia,Marrones,1.63
+Nicolás,Moreno,30999444,28,nicolas.moreno@example.com,Posadas,Verdes,1.80
+Agustina,Molina,34111888,21,agustina.molina@example.com,San Juan,Azules,1.58
+Sebastián,Ortiz,27666555,39,sebastian.ortiz@example.com,San Luis,Marrones,1.77
+Julieta,Silva,33888222,30,julieta.silva@example.com,Paraná,Negros,1.64
+Matías,Castro,29444777,42,matias.castro@example.com,Corrientes,Marrones,1.83
+Micaela,Ramírez,32555999,25,micaela.ramirez@example.com,Formosa,Celestes,1.61
+Tomás,Herrera,26111444,37,tomas.herrera@example.com,San Salvador de Jujuy,Verdes,1.76
+Antonella,Vega,35777222,23,antonella.vega@example.com,Río Cuarto,Marrones,1.59
+Emiliano,Rojas,28333666,44,emiliano.rojas@example.com,Comodoro Rivadavia,Negros,1.88
+Brenda,Medina,31888555,26,brenda.medina@example.com,Santiago del Estero,Azules,1.67
+Facundo,Aguirre,30222999,35,facundo.aguirre@example.com,Concordia,Marrones,1.81
+Rocío,Benítez,34999111,29,rocio.benitez@example.com,San Fernando del Valle de Catamarca,Verdes,1.62
+Gonzalo,Flores,27555888,40,gonzalo.flores@example.com,La Rioja,Marrones,1.84
+Milagros,Acosta,33222444,22,milagros.acosta@example.com,Viedma,Celestes,1.60
+Lautaro,Cabrera,29888333,31,lautaro.cabrera@example.com,Rawson,Negros,1.78
+Abril,Giménez,32444666,24,abril.gimenez@example.com,Ushuaia,Verdes,1.65
+Joaquín,Núñez,26777999,46,joaquin.nunez@example.com,Santa Rosa,Marrones,1.86
+Delfina,Vidal,35111555,27,delfina.vidal@example.com,Río Gallegos,Azules,1.63
